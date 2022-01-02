@@ -1,0 +1,135 @@
+﻿@model SalesBudget.Models.ViewModels.CustomerViewModel
+
+@{
+    var title = "Create Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Upsert">
+
+    <div class="row px-2 mx-2">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (Model.Customer.CustomerId != 0)
+        {
+            <input type="hidden" asp-for="Customer.CustomerId"/>
+            title = "Edit Customer";
+        }
+
+    <div class="col-12">
+        <br />
+        <h2 class="text-primary">@title</h2>
+        <br />
+        <br />
+    </div>
+
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Customer.CustomerName"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Customer.CustomerName" class="form-control" />
+                    <span asp-validation-for="Customer.CustomerName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Customer.CustomerGroupCode"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Customer.CustomerGroupCode" class="form-control" />
+                    <span asp-validation-for="Customer.CustomerGroupCode" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Customer.CountryCode"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Customer.CountryCode" class="form-control" />
+                    <span asp-validation-for="Customer.CountryCode" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Customer.CustomerGroupName"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Customer.CustomerGroupName" class="form-control" />
+                    <span asp-validation-for="Customer.CustomerGroupName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Customer.LicensingArea"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Customer.LicensingArea" class="form-control" />
+                    <span asp-validation-for="Customer.LicensingArea" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @if (Model.Customer.CustomerId != 0)
+                    {
+                        //Edit button and back to list
+                        <partial name="_EditAndBackToListButton" model="Model.Customer.CustomerId" />
+                    }
+                    else
+                    {
+                        //Create button and back to list
+                        <partial name="_CreateAndBackToListButton" />
+                    }
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+
+    </div>
+</form>
+
+<br />
+<br />
+
+
+
+
+
+

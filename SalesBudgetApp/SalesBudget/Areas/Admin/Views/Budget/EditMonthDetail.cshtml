@@ -1,0 +1,300 @@
+﻿@model SalesBudget.Models.ViewModels.BudgetViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "title";
+    <input type="hidden" asp-for="FBudget.BudgetId" />
+}
+
+<form method="post" asp-action="EditMonthDetail" id="form">
+
+    <div class="row px-2 mx-2">
+
+        <div class="col-12">
+            @if (Model.FBudget.BudgetId != 0)
+            {
+                <input type="hidden" asp-for="FBudget.BudgetId" />
+                <input type="hidden" asp-for="FBudget.Quantity" />
+                <input type="hidden" asp-for="FBudget.UnitPrice" />
+                <input type="hidden" asp-for="FBudget.TotalAmount" />
+                title = "Edit Month details";
+            }
+            <br />
+            <h2 class="text-primary">@title</h2>
+            @*<div>
+                Quantity = <b>@Html.DisplayFor(Model => Model.FBudget.Quantity)</b>
+                <br />
+                UnitPrice = <b>@Html.DisplayFor(Model => Model.FBudget.UnitPrice)</b>
+            </div>*@
+            <div>
+                Max amount to be inserted: <b>@Html.DisplayFor(Model => Model.FBudget.TotalAmount)</b>
+            </div>
+            <div class="form-group">
+                Total inserted for now: <b type="number" id="displaytotal" name="displaytotal"></b>
+            </div>
+            <br />
+            <br />
+        </div>
+
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Jan"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Jan" class="form-control" id="january" />
+                    <span asp-validation-for="FBudget.Jan" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Feb"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Feb" class="form-control" id="february" />
+                    <span asp-validation-for="FBudget.Feb" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Mar"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Mar" class="form-control" id="march" />
+                    <span asp-validation-for="FBudget.Mar" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Apr"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Apr" class="form-control" id="april" />
+                    <span asp-validation-for="FBudget.Apr" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.May"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.May" class="form-control" id="may" />
+                    <span asp-validation-for="FBudget.May" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Jun"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Jun" class="form-control" id="june" />
+                    <span asp-validation-for="FBudget.Jun" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Jul"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Jul" class="form-control" id="july" />
+                    <span asp-validation-for="FBudget.Jul" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Ago"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Ago" class="form-control" id="august" />
+                    <span asp-validation-for="FBudget.Ago" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Sept"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Sept" class="form-control" id="september" />
+                    <span asp-validation-for="FBudget.Sept" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Oct"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Oct" class="form-control" id="october" />
+                    <span asp-validation-for="FBudget.Oct" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Nov"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Nov" class="form-control" id="november" />
+                    <span asp-validation-for="FBudget.Nov" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FBudget.Dec"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FBudget.Dec" class="form-control" id="december" />
+                    <span asp-validation-for="FBudget.Dec" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4 offset-4">
+                    <button type="submit" class="btn btn-primary form-control"><i class="fas fa-save"></i> Save</button>
+                </div>
+                <div class="col-4">
+                    <a class="btn btn-danger" onClick="window.close()"><i class="fas fa-times"></i> Close without saving</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<br />
+<br />
+
+@*Totale inserito dall'utente calcolato live'*@
+@section Scripts{ 
+    <script>
+        window.onload =function myCalc() {
+            var num1 = document.getElementById('january').value;
+            var num2 = document.getElementById('february').value;
+            var num3 = document.getElementById('march').value;
+            var num4 = document.getElementById('april').value;
+            var num5 = document.getElementById('may').value;
+            var num6 = document.getElementById('june').value;
+            var num7 = document.getElementById('july').value;
+            var num8 = document.getElementById('august').value;
+            var num9 = document.getElementById('september').value;
+            var num10 = document.getElementById('october').value;
+            var num11 = document.getElementById('november').value;
+            var num12 = document.getElementById('december').value;
+
+            var total = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5) + parseInt(num6)
+                + parseInt(num7) + parseInt(num8) + parseInt(num9) + parseInt(num10) + parseInt(num11) + parseInt(num12);
+            document.getElementById('displaytotal').innerHTML = total;
+        }
+
+        document.getElementById("january").addEventListener("change", myCalc, true);
+        document.getElementById("february").addEventListener("change", myCalc, true);
+        document.getElementById("march").addEventListener("change", myCalc, true);
+        document.getElementById("april").addEventListener("change", myCalc, true);
+        document.getElementById("may").addEventListener("change", myCalc, true);
+        document.getElementById("june").addEventListener("change", myCalc, true);
+        document.getElementById("july").addEventListener("change", myCalc, true);
+        document.getElementById("august").addEventListener("change", myCalc, true);
+        document.getElementById("september").addEventListener("change", myCalc, true);
+        document.getElementById("october").addEventListener("change", myCalc, true);
+        document.getElementById("november").addEventListener("change", myCalc, true);
+        document.getElementById("december").addEventListener("change", myCalc, true);
+
+
+        function myCalc() {
+            var num1 = document.getElementById('january').value;
+            var num2 = document.getElementById('february').value;
+            var num3 = document.getElementById('march').value;
+            var num4 = document.getElementById('april').value;
+            var num5 = document.getElementById('may').value;
+            var num6 = document.getElementById('june').value;
+            var num7 = document.getElementById('july').value;
+            var num8 = document.getElementById('august').value;
+            var num9 = document.getElementById('september').value;
+            var num10 = document.getElementById('october').value;
+            var num11 = document.getElementById('november').value;
+            var num12 = document.getElementById('december').value;
+
+            var total = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5) + parseInt(num6) + parseInt(num7) + parseInt(num8) + parseInt(num9) + parseInt(num10) + parseInt(num11) + parseInt(num12);
+            //document.getElementById('total').value = total;
+            document.getElementById('displaytotal').innerHTML = total;
+        }
+
+        document.getElementById("january").addEventListener("change", myCalc, true);
+        document.getElementById("february").addEventListener("change", myCalc, true);
+        document.getElementById("march").addEventListener("change", myCalc, true);
+        document.getElementById("april").addEventListener("change", myCalc, true);
+        document.getElementById("may").addEventListener("change", myCalc, true);
+        document.getElementById("june").addEventListener("change", myCalc, true);
+        document.getElementById("july").addEventListener("change", myCalc, true);
+        document.getElementById("august").addEventListener("change", myCalc, true);
+        document.getElementById("september").addEventListener("change", myCalc, true);
+        document.getElementById("october").addEventListener("change", myCalc, true);
+        document.getElementById("november").addEventListener("change", myCalc, true);
+        document.getElementById("december").addEventListener("change", myCalc, true);
+
+
+</script>
+}
+
+
+

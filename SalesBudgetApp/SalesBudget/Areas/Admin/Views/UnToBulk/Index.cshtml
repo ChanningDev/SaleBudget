@@ -1,0 +1,125 @@
+﻿@model SalesBudget.Models.ViewModels.UnToBulkViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-6">
+        <br />
+        <h2 class="text-primary">UnToBulk List</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="Upsert" class="btn btn-primary float-end" target="_blank"><i class="fas fa-plus"></i> &nbsp; Create New UnToBulk</a>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-success float-end" onClick="document.location.reload(true)"><i class="fas fa-sync-alt"></i> &nbsp; Refresh page</a>
+    </div>
+</div>
+
+<br />
+<div class="row">
+    <div class="col-12">
+        <a asp-controller="OtherTables" asp-action="Index" class="btn btn-warning float-end"><i class="fas fa-backspace"></i> Back to List</a>
+    </div>
+</div>
+
+
+
+<br />
+<table class="table table-striped table-bordered table-hover" id="table">
+    <thead>
+        <tr>
+            <th>
+                UnToBulkId
+            </th>
+            <th>
+                ConversionRate
+            </th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model.RecordsList)
+        {
+            <tr>
+
+                <td id="data">
+                    @Html.DisplayFor(modelItem => item.UnToBulkId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ConversionRate)
+                </td>
+
+
+                <td>
+                    <a asp-action="Upsert" asp-route-id="@item.UnToBulkId" class="btn btn-primary" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    @*<a href="#" onclick="ConfirmDelete(@item.UnToBulkId)" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>*@
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Delete UnToBulk</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Are you sure you want to Remove this UnToBulk?</h4>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="DeleteUnToBulk()">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" asp-for="UnToBulk.UnToBulkId" id="hiddenBudgetId" />
+<br />
+<br />
+
+
+
+@section Scripts
+{
+    <script>
+
+        var ConfirmDelete = function (UnToBulkId) {
+
+            $("#hiddenBudgetId").val(UnToBulkId);
+            $("#myModal").modal('show');
+
+        }
+
+        var DeleteUnToBulk = function () {
+
+            var bdgId = $("#hiddenBudgetId").val();
+
+            $.ajax
+                ({
+                    type: "POST",
+                    url: "/Admin/unToBulk/Delete/",
+                    data: { Id: bdgId },
+                    success: function (result) {
+                        $("#myModal").modal("hide");
+                        $("#row_" + bdgId).remove();
+                        window.location.reload();
+                    }
+                })
+        }
+    </script>
+}

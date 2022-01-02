@@ -1,0 +1,215 @@
+﻿@model SalesBudget.Models.ViewModels.ItemMasterViewModel
+
+@{
+    var title = "Create ItemMaster";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Upsert">
+
+    <div class="row px-2 mx-2">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (Model.ItemMaster.ItemMasterId != 0)
+        {
+            <input type="hidden" asp-for="ItemMaster.ItemMasterId" id="hiddenBudgetId" />
+            title = "Edit ItemMaster";
+        }
+
+        <div class="col-12">
+            <br />
+            <h2 class="text-primary">@title</h2>
+            <br />
+            <br />
+        </div>
+
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.ItemNumber"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ItemMaster.ItemNumber" class="form-control" id="itemNumber" />
+                    <span asp-validation-for="ItemMaster.ItemNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.ShortItem"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ItemMaster.ShortItem" class="form-control" />
+                    <span asp-validation-for="ItemMaster.ShortItem" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.ItemDescription"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ItemMaster.ItemDescription" class="form-control" />
+                    <span asp-validation-for="ItemMaster.ItemDescription" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.UnitOfMeasure"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ItemMaster.UnitOfMeasure" class="form-control" />
+                    <span asp-validation-for="ItemMaster.UnitOfMeasure" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.PharmaForm"></label>
+                </div>
+                <div class="col-8">
+                    @*Parameter1: what I want to save in the db
+                        Parameter2: actual list of items (dropdown menu)
+                        Parameter3: default that I see in the dropdown
+                        Parameter4: classes that I want to add*@
+                    @Html.DropDownListFor(m => m.ItemMaster.PharmaFormId,
+                                            Model.PharmaFormList,
+                                            "-- Please Select a PharmaForm --",
+                                            new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.ProductGroup"></label>
+                </div>
+                <div class="col-8">
+                    @*Parameter1: what I want to save in the db
+                        Parameter2: actual list of items (dropdown menu)
+                        Parameter3: default that I see in the dropdown
+                        Parameter4: classes that I want to add*@
+                    @Html.DropDownListFor(m => m.ItemMaster.ProductGroupId,
+                                            Model.ProductGroupList,
+                                            "-- Please Select a ProductGroup --",
+                                            new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.UnToBulk"></label>
+                </div>
+                <div class="col-8">
+                    @*Parameter1: what I want to save in the db
+                        Parameter2: actual list of items (dropdown menu)
+                        Parameter3: default that I see in the dropdown
+                        Parameter4: classes that I want to add*@
+                    @Html.DropDownListFor(m => m.ItemMaster.UnToBulkId,
+                                            Model.UnToBulkList,
+                                            "-- Please Select a UnToBulk --",
+                                            new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ItemMaster.UnToKg"></label>
+                </div>
+                <div class="col-8">
+                    @*Parameter1: what I want to save in the db
+                        Parameter2: actual list of items (dropdown menu)
+                        Parameter3: default that I see in the dropdown
+                        Parameter4: classes that I want to add*@
+                    @Html.DropDownListFor(m => m.ItemMaster.UnToKgId,
+                                            Model.UnToKgList,
+                                            "-- Please Select a UnToKg --",
+                                            new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @if (Model.ItemMaster.ItemMasterId != 0)
+                    {
+                        //Edit button and back to list
+                        <partial name="_EditAndBackToListButton" model="Model.ItemMaster.ItemMasterId" />
+                    }
+                    else
+                    {
+                        //Create button and back to list
+                        <partial name="_CreateAndBackToListButton" />
+                    }
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+
+    </div>
+</form>
+
+<br />
+<br />
+
+
+@section Scripts{
+
+    @*Rimuovo gli "0" dai campi*@
+    <script>
+        $(document).ready(function () {
+            if (document.getElementById('itemNumber').value == "0") {
+                document.getElementById('itemNumber').value = '';
+            }
+        });
+    </script>
+}
+
+
+
+
