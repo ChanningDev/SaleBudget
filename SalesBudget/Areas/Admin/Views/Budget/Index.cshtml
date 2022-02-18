@@ -1,0 +1,198 @@
+﻿@model SalesBudget.Models.ViewModels.BudgetViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*_________________________________________________FILTER_BY___________________________________________________*@
+<form method="post" asp-controller="Budget" asp-action="Filter">
+
+    <div class="row">
+        <div class="col-6">
+            <br />
+            <h2 class="text-primary">Filter by</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="dropdown">
+                <label><b>Company</b></label>
+                @*Parameter1: ciò che voglio salvare nel db
+                    Parameter2: lista di ciò che apaprirà nel menu a tendina
+                    Parameter3: valore visualizzato di default nella tendina
+                    Parameter4: classi che voglio aggiungere*@
+                @Html.DropDownListFor(m => m.FBudget.CompanyId,
+                                        Model.CompanyList,
+                                        "--Select Company--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+            <div class="dropdown">
+                <label><b>Customer</b></label>
+                @Html.DropDownListFor(m => m.FBudget.CustomerId,
+                                        Model.CustomerList,
+                                        "--Select Customer--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <label><b>Licensing Area</b></label>
+                @Html.DropDownListFor(m => m.FBudget.Customer.LicensingArea,
+                                        Model.LicensingAreaList,
+                                        "--Select Licensing Area--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+            <div class="dropdown">
+                <label><b>Year</b></label>
+                @Html.DropDownListFor(m => m.FBudget.Year,
+                                        Model.YearsList,
+                                        "--Select Year--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <label><b>Product Group</b></label>
+                @Html.DropDownListFor(m => m.FBudget.ItemMaster.ProductGroupId,
+                                        Model.ProductGroupList,
+                                        "--Select Product Group--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+            <div class="dropdown">
+                <label><b>Pharma Form</b></label>
+                @Html.DropDownListFor(m => m.FBudget.ItemMaster.PharmaFormId,
+                                        Model.PharmaFormList,
+                                        "--Select Pharma Form--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <label><b>Currency</b></label>
+                @Html.DropDownListFor(modelItem => modelItem.FBudget.Currency,
+                                        Model.CurrencyList,
+                                        "--Select Currency--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+            <div class="dropdown">
+                <label><b>Scenario</b></label>
+                @Html.DropDownListFor(m => m.FBudget.LedgerTypeId,
+                                        Model.LedgerScenarioList,
+                                        "--Select Scenario--",
+                                        new { @class = "form-control" })
+            </div>
+            <br />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary float-end btn-lg"><i class="fas fa-search"></i> Find</button>
+        </div>
+    </div>
+</form>
+<hr />
+@*________________________________________________END_FILTER_BY___________________________________________________*@
+
+
+
+
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-primary">Budget List</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="Upsert" class="btn btn-primary float-end" target="_blank"><i class="fas fa-plus"></i> &nbsp; Create New Budget</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        @*<input class="btn btn-success disabled float-end" value="Refresh page" onClick="document.location.reload(true)">*@
+        <a class="btn btn-success disabled float-end" onClick="document.location.reload(true)"><i class="fas fa-sync-alt"></i> &nbsp; Refresh page</a>
+    </div>
+</div>
+
+@*<div class="col-12">
+        <a asp-action="ShowAll" class="btn btn-primary float-end">Show All Records</a>
+    </div>*@
+<br />
+
+
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Customer
+            </th>
+            <th>
+                Decription
+            </th>
+            <th>
+                Curr
+            </th>
+            <th>
+                FoC
+            </th>
+            <th>
+                UM
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Total amount
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <h3> Select at least 1 filter to show some results. </h3>
+
+        <tr>
+
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+
+
+            <td>
+                <a href="#" class="btn btn-primary disabled"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-danger disabled"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-success disabled"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-primary disabled"><i class="far fa-copy" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-dark disabled"><i class="fas fa-check-double"></i></a>
+            </td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+<br />
+<br />

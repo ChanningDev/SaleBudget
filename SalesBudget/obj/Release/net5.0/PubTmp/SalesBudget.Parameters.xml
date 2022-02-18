@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SalesBudget20211202205928" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\cmor\\Documents\\GitHub\\nuova-app-sales-budget-helsinn\\Sviluppo\\NewApps\\SalesBudgetApp_ConMaschereTabelle\\SalesBudget\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

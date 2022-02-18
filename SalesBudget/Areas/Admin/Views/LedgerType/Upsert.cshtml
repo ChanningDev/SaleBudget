@@ -1,0 +1,109 @@
+﻿@model SalesBudget.Models.ViewModels.LedgerTypeViewModel
+
+@{
+    var title = "Create LedgerType";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Upsert">
+
+    <div class="row px-2 mx-2">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (Model.LedgerType.LedgerTypeId != 0)
+        {
+            <input type="hidden" asp-for="LedgerType.LedgerTypeId" id="hiddenBudgetId" />
+            title = "Edit LedgerType";
+        }
+
+        <div class="col-12">
+            <br />
+            <h2 class="text-primary">@title</h2>
+            <br />
+            <br />
+        </div>
+
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="LedgerType.LedgerTypeCode"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="LedgerType.LedgerTypeCode" class="form-control" />
+                    <span asp-validation-for="LedgerType.LedgerTypeCode" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="LedgerType.Scenario"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="LedgerType.Scenario" class="form-control" />
+                    <span asp-validation-for="LedgerType.Scenario" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="LedgerType.Statutory"></label>
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(modelItem => modelItem.LedgerType.Statutory,
+                        new[]
+                            {
+                                new SelectListItem { Text = "1", Value = "true" },
+                                new SelectListItem { Text = "0", Value = "false" },
+                            },
+
+                         new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @if (Model.LedgerType.LedgerTypeId != 0)
+                    {
+                        //Edit button and back to list
+                        <partial name="_EditAndBackToListButton" model="Model.LedgerType.LedgerTypeId" />
+                    }
+                    else
+                    {
+                        //Create button and back to list
+                        <partial name="_CreateAndBackToListButton" />
+                    }
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+
+    </div>
+</form>
+
+<br />
+<br />
+
+
+
+
+
+
