@@ -130,3 +130,15 @@ C:\Users\cmo\Desktop\SalesBudget\SalesBudget\SalesBudget\SalesBudget.Models\obj\
 C:\Users\cmo\Desktop\SalesBudget\SalesBudget\SalesBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.dll
 C:\Users\cmo\Desktop\SalesBudget\SalesBudget\SalesBudget\SalesBudget.Models\obj\Debug\net5.0\ref\SalesBudget.Models.dll
 C:\Users\cmo\Desktop\SalesBudget\SalesBudget\SalesBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.pdb
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\bin\Debug\net5.0\SalesBudget.Models.deps.json
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\bin\Debug\net5.0\SalesBudget.Models.dll
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\bin\Debug\net5.0\SalesBudget.Models.pdb
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.csproj.AssemblyReference.cache
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.AssemblyInfoInputs.cache
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.AssemblyInfo.cs
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.csproj.CoreCompileInputs.cache
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.dll
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\refint\SalesBudget.Models.dll
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\SalesBudget.Models.pdb
+C:\Users\cmo\Documents\GitHub\SaleBudget\SalesBudget.Models\obj\Debug\net5.0\ref\SalesBudget.Models.dll

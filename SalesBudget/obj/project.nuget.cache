@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P4gjRRG3MxYNkx6L0FCafNycxwLbIS7vvbeGi6PgTh87qCxduk0T4NqdD7cC6goj6ar3Kb5dJFcT5v4UHWSesA==",
+  "dgSpecHash": "EMVcxrAxoUgI/Ha6l/bL0U8hOL6VlkNP62SrTBkd1oLVtLIYl2jvWyCnE/LLzOofGEJlZ4o/TlTziByQq52/ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.csproj",
+  "projectFilePath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cmo\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\cmo\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

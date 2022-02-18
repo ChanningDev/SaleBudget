@@ -7886,11 +7886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.csproj",
+      "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj",
       "projectName": "SalesBudget",
-      "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.csproj",
+      "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj",
       "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget\\obj\\",
+      "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7907,11 +7907,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj"
+            "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj"
             },
-            "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-              "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+            "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
+              "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
             }
           }
         }

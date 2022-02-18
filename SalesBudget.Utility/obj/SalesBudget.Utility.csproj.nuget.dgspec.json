@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {}
+    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
+    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
+        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
         "projectName": "SalesBudget.Models",
-        "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
+        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
         "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\obj\\",
+        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
+    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
         "projectName": "SalesBudget.Utility",
-        "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
+        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
         "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\obj\\",
+        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
+                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
               }
             }
           }

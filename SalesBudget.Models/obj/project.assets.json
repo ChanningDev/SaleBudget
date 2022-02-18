@@ -7738,11 +7738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
+      "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
       "projectName": "SalesBudget.Models",
-      "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
+      "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
       "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\obj\\",
+      "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",

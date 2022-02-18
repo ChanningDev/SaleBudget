@@ -9914,11 +9914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
       "projectName": "SalesBudget.DataAccess",
-      "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
+      "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
       "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9935,11 +9935,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-              "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+            "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
+              "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
             },
-            "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
-              "projectPath": "C:\\Users\\cmo\\Desktop\\SalesBudget\\SalesBudget\\SalesBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj"
+            "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
+              "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj"
             }
           }
         }
