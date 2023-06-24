@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj": {}
+    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj": {
+    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
+        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj",
         "projectName": "SalesBudget.DataAccess",
-        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\obj\\",
+        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj",
+        "packagesPath": "/Users/channingm/.nuget/packages/",
+        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+              "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
+                "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj"
               },
-              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj"
+              "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj": {
+                "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj"
               }
             }
           }
@@ -76,37 +74,46 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
+    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
+        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj",
         "projectName": "SalesBudget.Models",
-        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj",
-        "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\obj\\",
+        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj",
+        "packagesPath": "/Users/channingm/.nuget/packages/",
+        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,45 +147,54 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj": {
+    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
+        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj",
         "projectName": "SalesBudget.Utility",
-        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\SalesBudget.Utility.csproj",
-        "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Utility\\obj\\",
+        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj",
+        "packagesPath": "/Users/channingm/.nuget/packages/",
+        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+              "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
+                "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj"
               }
             }
           }
@@ -212,48 +228,58 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj": {
+    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj",
+        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
         "projectName": "SalesBudget",
-        "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\SalesBudget.csproj",
-        "packagesPath": "C:\\Users\\cmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget\\obj\\",
+        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+        "packagesPath": "/Users/channingm/.nuget/packages/",
+        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.DataAccess\\SalesBudget.DataAccess.csproj"
+              "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj": {
+                "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj"
               },
-              "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj": {
-                "projectPath": "C:\\Users\\cmo\\Documents\\GitHub\\SaleBudget\\SalesBudget.Models\\SalesBudget.Models.csproj"
+              "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
+                "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj"
               }
             }
           }
@@ -315,10 +341,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -327,7 +368,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }
