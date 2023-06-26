@@ -1,39 +1,34 @@
-﻿<Properties StartupConfiguration="{EBABB29E-DB65-45F5-ABA3-4B787CADE29C}|Default">
-  <MonoDevelop.Ide.ItemProperties.SalesBudget PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Areas/Admin/Views/Budget/EditMonthDetail.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.Development.json">
     <Files>
-      <File FileName="Areas/Admin/Controllers/BudgetController.cs" Line="28" Column="25" />
-      <File FileName="Areas/Admin/Views/Budget/BudgetRevision.cshtml" Line="1" Column="1" />
-      <File FileName="Areas/Admin/Views/Budget/CopyBudget.cshtml" Line="1" Column="1" />
-      <File FileName="Areas/Admin/Views/Budget/EditMonthDetail.cshtml" Line="1" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SalesBudget" expanded="True">
-            <Node name="SalesBudget" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Budget" expanded="True" />
-                  </Node>
-                </Node>
+          <Node name="SalesBudget">
+            <Node name="SalesBudget">
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
               </Node>
             </Node>
-            <Node name="SalesBudget.DataAccess" selected="True" />
+            <Node name="SalesBudget.DataAccess" expanded="True">
+              <Node name="Migrations" expanded="True" />
+            </Node>
+            <Node name="SalesBudget.Models" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SalesBudget PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

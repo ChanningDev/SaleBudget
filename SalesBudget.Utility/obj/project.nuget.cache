@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e2tz6dZbMruxCfnLOgVHWJvuShEUT8/Rcm+JYfe7Dd0mmPVelPE3T1ISHnplfkL3EPNuDpvYh94y51teP1ORug==",
+  "dgSpecHash": "k9+WPJhj6Dn0zk4GTmcbLtyHonl2i4Lzks0gr5WWZAd6kOgtXoDiacPITfGaGcMNFw2TMOZks6c978TL/xAZNg==",
   "success": true,
   "projectFilePath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Utility/SalesBudget.Utility.csproj",
   "expectedPackageFiles": [
@@ -169,8 +169,8 @@
     "/Users/channingm/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/channingm/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/channingm/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

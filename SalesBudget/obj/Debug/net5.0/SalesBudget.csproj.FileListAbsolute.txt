@@ -6770,11 +6770,6 @@ C:/Users/cmo/Documents/GitHub/SaleBudget/SalesBudget/obj/Debug/net5.0/ref/SalesB
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/SalesBudget.RazorAssemblyInfo.cs
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/scopedcss/bundle/SalesBudget.styles.css
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/SalesBudget.StaticWebAssets.Manifest.cache
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/SalesBudget.StaticWebAssets.Pack.cache
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/msbuild.SalesBudget.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/msbuild.build.SalesBudget.props
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/msbuild.buildMultiTargeting.SalesBudget.props
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/staticwebassets/msbuild.buildTransitive.SalesBudget.props
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/SalesBudget.TagHelpers.input.cache
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/SalesBudget.TagHelpers.output.cache
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/Debug/net5.0/SalesBudget.RazorCoreGenerate.cache
