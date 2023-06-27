@@ -459,3 +459,5 @@ Properties
 **/SalesBudget.Utility.csproj.user
 /SalesBudget.Utility.csproj.user
 **/salesbudget.salesbudget
+**/.DS_Store
+.DS_Store
