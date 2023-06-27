@@ -1,4 +1,6 @@
-**App SalesBudget**
+<h1>**App SalesBudget**</h1>
+</br>
+</br>
 </br>
 **Code-first approach**</br>
 Unlike the BudgetStatus app-prototype, in the new SalesBudget app I took a different approach, namely a code-first approach. 
