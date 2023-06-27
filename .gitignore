@@ -461,3 +461,13 @@ Properties
 **/salesbudget.salesbudget
 **/.DS_Store
 .DS_Store
+**/SalesBudget.csproj
+SalesBudget.csproj
+**/SalesBudget.csproj.user
+SalesBudget.csproj.user
+**/SalesBudget/SalesBudget.sln
+SalesBudget/SalesBudget.sln
+**/Startup.cs
+Startup.cs
+**/Program.cs
+Program.cs
