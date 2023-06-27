@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nPaTYyMLNFnyoQR2fqQ6tKqyBU2tg2WKlgYF46CDc8+kDFWLemilCUkwVEwVcpDu14DCwbYE4IRxc7kQrdaeZw==",
+  "dgSpecHash": "Is4FSCyihjCSTkA0Htiw1D2V0z8rVnUfPTCaUDldjAd4E5f3igpNv9ZnGxtJJ4BiqiibZjfEUly+XmfkZ3Rsrg==",
   "success": true,
   "projectFilePath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -212,9 +212,7 @@
     "/Users/channingm/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/channingm/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

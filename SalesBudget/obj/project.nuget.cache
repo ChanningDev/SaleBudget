@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "317S2XOULvdEHGJw0YfXEM8Z+9NgIfwJutx955rrDvcA8gIOhnM18FwSr1XYiUSC9fSEIWXxlg6NZ8seQf+t6A==",
+  "dgSpecHash": "xIG8dy551Mime/bFfJtZ63iUubVlWbDsYEORyu9Py+WGUp4p56oGOI4XdCyo745rBaxeWazMnNgJm+fWGzd63A==",
   "success": true,
-  "projectFilePath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+  "projectFilePath": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj",
   "expectedPackageFiles": [
     "/Users/channingm/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",
@@ -182,10 +182,7 @@
     "/Users/channingm/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/channingm/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/channingm/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+    "/Users/channingm/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -195,17 +192,17 @@
       "message": "Syncfusion.EJ2.MVC5 19.3.0.53 does not provide an inclusive lower bound for dependency Newtonsoft.Json (> 9.0.0). An approximate best match of Newtonsoft.Json 9.0.1 was resolved.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
-        "net5.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Syncfusion.EJ2.MVC5 19.3.0.53' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Syncfusion.EJ2.MVC5 19.3.0.53' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Syncfusion.EJ2.MVC5",
       "targetGraphs": [
-        "net5.0"
+        "net6.0"
       ]
     }
   ]

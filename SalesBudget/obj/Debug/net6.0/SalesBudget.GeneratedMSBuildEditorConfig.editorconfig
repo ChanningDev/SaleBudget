@@ -1,0 +1,232 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SalesBudget
+build_property.RootNamespace = SalesBudget
+build_property.ProjectDir = /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/BudgetRevision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0J1ZGdldFJldmlzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/CopyBudget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0NvcHlCdWRnZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/EditMonthDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0VkaXRNb250aERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/FailedTotal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0ZhaWxlZFRvdGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0ZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/MonthlyDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L01vbnRobHlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L1JlY29yZE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/ShowAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L1Nob3dBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Budget/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQnVkZ2V0L1Vwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tcGFueS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Company/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tcGFueS9SZWNvcmROb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Company/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tcGFueS9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Company/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tcGFueS9VcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/CopyFromTo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29weUZyb21Uby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Customer/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ3VzdG9tZXIvUmVjb3JkTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Customer/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ3VzdG9tZXIvU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/Customer/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ3VzdG9tZXIvVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ItemMaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbU1hc3Rlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ItemMaster/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbU1hc3Rlci9SZWNvcmROb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ItemMaster/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbU1hc3Rlci9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ItemMaster/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbU1hc3Rlci9VcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/LedgerType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTGVkZ2VyVHlwZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/LedgerType/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTGVkZ2VyVHlwZS9SZWNvcmROb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/LedgerType/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTGVkZ2VyVHlwZS9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/LedgerType/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTGVkZ2VyVHlwZS9VcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/OtherTables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3RoZXJUYWJsZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/PharmaForm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGhhcm1hRm9ybS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/PharmaForm/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGhhcm1hRm9ybS9SZWNvcmROb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/PharmaForm/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGhhcm1hRm9ybS9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/PharmaForm/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGhhcm1hRm9ybS9VcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ProductGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdEdyb3VwL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ProductGroup/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdEdyb3VwL1JlY29yZE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ProductGroup/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdEdyb3VwL1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/ProductGroup/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdEdyb3VwL1Vwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToBulk/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0J1bGsvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToBulk/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0J1bGsvUmVjb3JkTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToBulk/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0J1bGsvU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToBulk/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0J1bGsvVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToKg/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0tnL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToKg/RecordNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0tnL1JlY29yZE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToKg/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0tnL1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/UnToKg/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVW5Ub0tnL1Vwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/Shared/_CreateAndBackToListButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DcmVhdGVBbmRCYWNrVG9MaXN0QnV0dG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/Shared/_EditAndBackToListButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FZGl0QW5kQmFja1RvTGlzdEJ1dHRvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

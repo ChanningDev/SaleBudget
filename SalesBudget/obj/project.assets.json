@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Azure.Core/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -3214,7 +3214,7 @@
       },
       "SalesBudget.DataAccess/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
@@ -3232,7 +3232,7 @@
       },
       "SalesBudget.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "5.0.10"
@@ -3246,7 +3246,7 @@
       },
       "SalesBudget.Utility/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.11",
@@ -8422,7 +8422,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.10",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
@@ -8442,24 +8442,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+      "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj",
       "projectName": "SalesBudget",
-      "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+      "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj",
       "packagesPath": "/Users/channingm/.nuget/packages/",
-      "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/",
+      "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/channingm/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj": {
               "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj"
@@ -8477,8 +8477,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
@@ -8532,20 +8532,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8566,17 +8552,17 @@
       "message": "Syncfusion.EJ2.MVC5 19.3.0.53 does not provide an inclusive lower bound for dependency Newtonsoft.Json (> 9.0.0). An approximate best match of Newtonsoft.Json 9.0.1 was resolved.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
-        "net5.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Syncfusion.EJ2.MVC5 19.3.0.53' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Syncfusion.EJ2.MVC5 19.3.0.53' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Syncfusion.EJ2.MVC5",
       "targetGraphs": [
-        "net5.0"
+        "net6.0"
       ]
     }
   ]

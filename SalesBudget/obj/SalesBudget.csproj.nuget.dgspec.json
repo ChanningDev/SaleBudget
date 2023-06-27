@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj": {}
+    "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj": {}
   },
   "projects": {
     "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj": {
@@ -17,14 +17,14 @@
           "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
               "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
                 "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj"
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -79,16 +79,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -111,14 +101,14 @@
           "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -129,8 +119,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -152,16 +142,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -184,14 +164,14 @@
           "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
               "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj": {
                 "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.Models/SalesBudget.Models.csproj"
@@ -206,8 +186,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Extensions": {
               "target": "Package",
@@ -233,16 +213,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -252,27 +222,27 @@
         }
       }
     },
-    "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj": {
+    "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+        "projectUniqueName": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj",
         "projectName": "SalesBudget",
-        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/SalesBudget.csproj",
+        "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/SalesBudget.csproj",
         "packagesPath": "/Users/channingm/.nuget/packages/",
-        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/obj/",
+        "outputPath": "/Users/channingm/Documents/GitHub/SalesBudget/salesbudget/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/channingm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
               "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj": {
                 "projectPath": "/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget.DataAccess/SalesBudget.DataAccess.csproj"
@@ -290,8 +260,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -345,20 +315,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

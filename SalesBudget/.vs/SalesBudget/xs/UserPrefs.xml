@@ -1,34 +1,32 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{EBABB29E-DB65-45F5-ABA3-4B787CADE29C}|Default">
+  <Debugger.DebugSourceFolders />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SalesBudget PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.Development.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../SalesBudget.DataAccess/Data/ApplicationDbContext.cs">
     <Files>
-      <File FileName="appsettings.json" />
+      <File FileName="appsettings.json" Line="17" Column="1" />
       <File FileName="Program.cs" />
       <File FileName="Startup.cs" />
-      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="../SalesBudget.DataAccess/Data/ApplicationDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SalesBudget">
-            <Node name="SalesBudget">
-              <Node name="appsettings.json" expanded="True">
-                <Node name="appsettings.Development.json" selected="True" />
+            <Node name="SalesBudget.DataAccess" selected="True">
+              <Node name="Data" expanded="True">
+                <Node name="Repository" expanded="True" />
               </Node>
             </Node>
-            <Node name="SalesBudget.DataAccess" expanded="True">
-              <Node name="Migrations" expanded="True" />
-            </Node>
-            <Node name="SalesBudget.Models" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SalesBudget PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
