@@ -398,11 +398,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 
-# sensitive connections
-**/appsettings.json
-**/appsettings.Development.json
-
-
 # System
 .DS_Store
 
@@ -428,3 +423,39 @@ venv
 .vscode
 .idea
 .ipython
+
+# Sensitive connections
+**/appsettings.json
+**/appsettings.Development.json
+
+# Others
+.vs
+**/bin
+bin
+**/Properties
+Properties
+**/obj
+obj
+**/*.config
+.config
+**/Migrations
+/Migrations
+**/Properties
+Properties
+**/SalesBudget.DataAccess.csproj
+/SalesBudget.DataAccess.csproj
+**/SalesBudget.DataAccess.csproj.user
+/SalesBudget.DataAccess.csproj.user
+**/scripts.sql
+/scripts.sql
+**/salesbudget.salesbudget
+/salesbudget.salesbudget
+**/SalesBudget.Models.csproj
+/SalesBudget.Models.csproj
+**/SalesBudget.Models.csproj.user
+/SalesBudget.Models.csproj.user
+**/SalesBudget.Utility.csproj
+/SalesBudget.Utility.csproj
+**/SalesBudget.Utility.csproj.user
+/SalesBudget.Utility.csproj.user
+**/salesbudget.salesbudget
