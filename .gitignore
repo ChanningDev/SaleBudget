@@ -400,3 +400,31 @@ FodyWeavers.xsd
 
 # sensitive connections
 **/appsettings.json
+**/appsettings.Development.json
+
+
+# System
+.DS_Store
+
+# Caches
+*.pyc
+__pycache__
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.doit.db.db
+
+# local db
+# *.sqlite3
+
+# dependencies
+node_modules
+venv
+
+# environment files
+.env
+
+# Editor
+.vscode
+.idea
+.ipython
