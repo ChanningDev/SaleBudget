@@ -1,5 +1,3 @@
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/bin/Debug/net6.0/appsettings.Development.json
-/Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/bin/Debug/net6.0/appsettings.json
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/bin/Debug/net6.0/SalesBudget.staticwebassets.runtime.json
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/bin/Debug/net6.0/SalesBudget
 /Users/channingm/Documents/GitHub/SalesBudget/SalesBudget/bin/Debug/net6.0/SalesBudget.deps.json

@@ -27,4 +27,8 @@
     <ProjectReference Include="..\SalesBudget.Models\SalesBudget.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="appsettings.json" />
+    <Content Remove="appsettings.Development.json" />
+  </ItemGroup>
 </Project>
