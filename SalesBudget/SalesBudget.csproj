@@ -53,4 +53,10 @@
     <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 18%29.cs" />
     <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 19%29.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Areas\Admin\Controllers\Backup\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\Backup\" />
+  </ItemGroup>
 </Project>
