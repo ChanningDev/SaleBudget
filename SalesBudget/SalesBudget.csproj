@@ -31,4 +31,10 @@
     <Content Remove="appsettings.json" />
     <Content Remove="appsettings.Development.json" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Areas\Admin\Controllers\Others\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\Others\" />
+  </ItemGroup>
 </Project>
