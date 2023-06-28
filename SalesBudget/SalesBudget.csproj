@@ -32,9 +32,25 @@
     <Content Remove="appsettings.Development.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Areas\Admin\Controllers\Others\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\Others\" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %283rd copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28another copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %284th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %285th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %286th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %287th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %288th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %289th copy%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 10%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 11%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 12%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 13%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 14%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 15%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 16%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 17%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 18%29.cs" />
+    <Compile Remove="Areas\Admin\Controllers\Others\BudgetController1 %28copy 19%29.cs" />
   </ItemGroup>
 </Project>
