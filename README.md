@@ -5,7 +5,7 @@ Welcome!
 ## What does this project do?
 This project is a .NET 6.0 corporate MPA that permits CRUD operations on sales data.
 
-> I am Channing, a full-stack software engineer. This project was for a my internship in 2019.
+> I am Channing, a full-stack software engineer. This project was for a my internship in 2021.
 
 ## Demo
 ![](https://github.com/ChanningDev/sales-budget/blob/main/Demo/demo-sales-budget.gif)
