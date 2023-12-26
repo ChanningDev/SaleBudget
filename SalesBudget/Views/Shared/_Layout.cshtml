@@ -14,50 +14,50 @@
 </head>
 <body>
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" asp-area="Admin" asp-controller="Budget" asp-action="Index"></i>SalesBudget</a>
-                    @*<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColo01"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>*@
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="Admin" asp-controller="Budget" asp-action="Index"></i>SalesBudget Application</a>
+                @*<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColo01"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>*@
 
-                    <div class="collapse navbar-collapse" id="navbarColor01">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="Admin" asp-controller="Budget" asp-action="Index"><i class="fas fa-home"></i> Home</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" asp-area="Admin" asp-controller="CopyFromTo" asp-action="Index" target="_blank"><i class="fas fa-file-import"></i> Copy Budget from-to</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" asp-area="Admin" asp-controller="OtherTables" asp-action="Index" target="_blank"><i class="fas fa-table"></i> Other tables</a>
-                            </li>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="Budget" asp-action="Index"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <!--<li>
+                            <a class="nav-link" asp-area="Admin" asp-controller="CopyFromTo" asp-action="Index"><i class="fas fa-file-import"></i> Copy Budget from-to</a>
+                        </li>-->
+                        <li>
+                            <a class="nav-link" asp-area="Admin" asp-controller="OtherTables" asp-action="Index"><i class="fas fa-table"></i> Other tables</a>
+                        </li>
 
-                        </ul>
-                    </div>
-                    <a class="text-light" href="https://salesbudget20211202205928.azurewebsites.net/.auth/logout">Logout from Azure AD <i class="fas fa-sign-out-alt"></i></a>
-
-
+                    </ul>
                 </div>
-            </nav>
+                <!--<a class="text-light" href="https://salesbudget20211202205928.azurewebsites.net/.auth/logout">Logout from Azure AD <i class="fas fa-sign-out-alt"></i></a>-->
 
-        </header>
 
-        <img src="~/img/1781561.jpg" width="400" height="70"/>
-
-        <div class="container">
-            <main role="main" class="pb-0">
-                @RenderBody()
-            </main>
-        </div>
-
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2021 - Helsinn Healthcare SA
             </div>
-        </footer>
+        </nav>
+
+    </header>
+
+    <!--<img src="~/img/1781561.jpg" width="400" height="70"/>-->
+
+    <div class="container">
+        <main role="main" class="pb-0">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - SalesBudget Application
+        </div>
+    </footer>
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

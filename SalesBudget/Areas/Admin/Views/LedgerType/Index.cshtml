@@ -4,101 +4,97 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="container">
 
-<div class="row">
-    <div class="col-6">
+    <div class="row">
         <br />
         <h2 class="text-primary">LedgerType List</h2>
     </div>
-    <div class="col-6">
-        <a asp-action="Upsert" class="btn btn-primary float-end" target="_blank"><i class="fas fa-plus"></i> &nbsp; Create New LedgerType</a>
+
+    <div class="row d-inline-flex">
+        <div class="col">
+            <a asp-action="Upsert" class="btn btn-primary float-end" target="_blank"><i class="fas fa-plus"></i> &nbsp; Create New LedgerType</a>
+        </div>
+        <div class="col">
+            <a class="btn btn-success float-end" onClick="document.location.reload(true)"><i class="fas fa-sync-alt"></i> &nbsp; Refresh page</a>
+        </div>
+        <div class="col">
+            <a asp-controller="OtherTables" asp-action="Index" class="btn btn-warning float-end"><i class="fas fa-backspace"></i> Back to List</a>
+        </div>
     </div>
-</div>
 
 
 
-<div class="row">
-    <div class="col-12">
-        <a class="btn btn-success float-end" onClick="document.location.reload(true)"><i class="fas fa-sync-alt"></i> &nbsp; Refresh page</a>
-    </div>
-</div>
 
-<br />
-<div class="row">
-    <div class="col-12">
-        <a asp-controller="OtherTables" asp-action="Index" class="btn btn-warning float-end"><i class="fas fa-backspace"></i> Back to List</a>
-    </div>
-</div>
-
-
-<br />
-<table class="table table-striped table-bordered table-hover" id="table">
-    <thead>
-        <tr>
-            <th>
-                LedgerTypeCode
-            </th>
-            <th>
-                Scenario
-            </th>
-            <th>
-                Statutory
-            </th>
-
-        </tr>
-    </thead>
-
-    <tbody>
-
-        @foreach (var item in Model.RecordsList)
-        {
+    <br />
+    <table class="table table-striped table-bordered table-hover" id="table">
+        <thead>
             <tr>
+                <th>
+                    LedgerTypeCode
+                </th>
+                <th>
+                    Scenario
+                </th>
+                <th>
+                    Statutory
+                </th>
 
-                <td id="data">
-                    @Html.DisplayFor(modelItem => item.LedgerTypeCode)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Scenario)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Statutory)
-                </td>
-
-
-                <td>
-                    <a asp-action="Upsert" asp-route-id="@item.LedgerTypeId" class="btn btn-primary" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                    @*<a href="#" onclick="ConfirmDelete(@item.LedgerTypeId)" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>*@
-                </td>
             </tr>
-        }
+        </thead>
 
-    </tbody>
+        <tbody>
 
-</table>
+            @foreach (var item in Model.RecordsList)
+            {
+                <tr>
+
+                    <td id="data">
+                        @Html.DisplayFor(modelItem => item.LedgerTypeCode)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Scenario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Statutory)
+                    </td>
+
+
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@item.LedgerTypeId" class="btn btn-primary" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                        @*<a href="#" onclick="ConfirmDelete(@item.LedgerTypeId)" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>*@
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
 
 
 
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Delete LedgerType</h3>
-            </div>
-            <div class="modal-body">
-                <h4>Are you sure you want to Remove this LedgerType?</h4>
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
-                <a href="#" class="btn btn-success" onclick="DeleteLedgerType()">Confirm</a>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Delete LedgerType</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Are you sure you want to Remove this LedgerType?</h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                    <a href="#" class="btn btn-success" onclick="DeleteLedgerType()">Confirm</a>
+                </div>
             </div>
         </div>
     </div>
+
+    <input type="hidden" asp-for="LedgerType.LedgerTypeId" id="hiddenBudgetId" />
+    <br />
+    <br />
+
 </div>
-
-<input type="hidden" asp-for="LedgerType.LedgerTypeId" id="hiddenBudgetId" />
-<br />
-<br />
-
 
 
 @section Scripts

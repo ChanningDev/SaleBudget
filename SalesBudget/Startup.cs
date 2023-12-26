@@ -14,7 +14,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.Identity.Web.UI;
+//using Microsoft.Identity.Web.UI;
 
 namespace SalesBudget
 {
@@ -42,8 +42,8 @@ namespace SalesBudget
 
             services.AddControllersWithViews()
                 //removes reference looping in json datatable
-                .AddNewtonsoftJson((options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore))
-                .AddRazorRuntimeCompilation();
+                .AddNewtonsoftJson((options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore));
+                //.AddRazorRuntimeCompilation();
 
             //services.AddMicrosoftWebAppAuthentication(Configuration);
             //services.AddControllersWithViews(options =>
