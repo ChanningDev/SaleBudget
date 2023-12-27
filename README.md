@@ -8,7 +8,7 @@ This project is a .NET 6.0 corporate MPA that permits CRUD operations on sales d
 > I am Channing, a full-stack software engineer. This project was for a my internship in 2021.
 
 ## Demo
-![](https://github.com/ChanningDev/sales-budget/assets/15304039/92a60b72-fff5-4fc2-abfd-ff44fb204aea)
+![sales-budget-demo](https://github.com/ChanningDev/sales-budget/assets/15304039/5e06b2ea-c2ad-44f4-b6a6-f3d706248800)
 
 ## The Aim
 To migrate the app from Webforms to .NET.
