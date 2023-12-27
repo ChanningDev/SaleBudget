@@ -8,7 +8,7 @@ This project is a .NET 6.0 corporate MPA that permits CRUD operations on sales d
 > I am Channing, a full-stack software engineer. This project was for a my internship in 2021.
 
 ## Demo
-![](https://private-user-images.githubusercontent.com/15304039/293089234-92a60b72-fff5-4fc2-abfd-ff44fb204aea.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDM3MDU3OTEsIm5iZiI6MTcwMzcwNTQ5MSwicGF0aCI6Ii8xNTMwNDAzOS8yOTMwODkyMzQtOTJhNjBiNzItZmZmNS00ZmMyLWFiZmQtZmY0NGZiMjA0YWVhLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjI3VDE5MzEzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyN2UyOGM1NmYzMzhlZDY4MGVkNzgyZTVhMmRiNjNkMmI4ODY0NDViNzU2ZjY4ZjgxY2YwNjAxZTRjZjhmMzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ekrt4VIWUxTiv7JYB_iCTCE5pjg6CpRdQaWYyA2IX4k)
+![](https://github.com/ChanningDev/sales-budget/assets/15304039/92a60b72-fff5-4fc2-abfd-ff44fb204aea)
 
 ## The Aim
 To migrate the app from Webforms to .NET.
